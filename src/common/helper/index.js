@@ -13,7 +13,6 @@ export const wp = percentage => {
   const value = (percentage * screenWidth) / 100;
   return Math.round(value);
 };
-
 // The average resolution of common devices, based on a ~5" mobile screen.
 // const baselineHeight = screenHeight < 750 ? 680 : 800;
 const baselineHeight = screenHeight == 812 ? 800 : 680;
